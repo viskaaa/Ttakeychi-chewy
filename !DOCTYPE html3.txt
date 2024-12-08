@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mochi Promotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc99;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a.active {
+            color: #ff6600;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="members.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Mochi</h1>
+
+        <section id="what-is-mochi">
+            <h2>What is Mochi?</h2>
+            <p>Mochi is a traditional Japanese rice cake made from glutinous rice that is pounded into a paste and molded into shape. Known for its chewy texture, mochi is a versatile dessert that can be enjoyed in a variety of flavors and forms.</p>
+        </section>
+
+        <section id="history">
+            <h2>History of Mochi</h2>
+            <p>The history of mochi dates back over 1,000 years in Japan. Originally, it was a sacred food offered during religious ceremonies. Over time, it became a staple in Japanese culture, symbolizing good fortune and prosperity, especially during the New Year celebrations.</p>
+        </section>
+
+        <section id="fun-facts">
+            <h2>Fun Facts About Mochi</h2>
+            <ul>
+                <li>Mochi is traditionally made during a ceremony called "Mochitsuki," where rice is pounded in a large mortar.</li>
+                <li>In Japan, mochi is often filled with sweet red bean paste, but modern variations include ice cream, chocolate, and even savory fillings.</li>
+                <li>Mochi is also used in soups, such as "Ozoni," a traditional New Year’s dish.</li>
+                <li>Because of its sticky texture, mochi can be a choking hazard, and people are advised to eat it carefully!</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Kontak Kami:</p>
+            <ul>
+                <li>Email: <a href="mailto:contact@domain.com">contact@domain.com</a></li>
+                <li>Telepon: +62 123 456 789</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nama Perusahaan. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+    
+    <style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-content li {
+            margin: 10px 0;
+        }
+    
+        .footer-content a {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+    
+        .footer-bottom {
+            margin-top: 20px;
+        }
+    </style>    
+</body>
+</html>

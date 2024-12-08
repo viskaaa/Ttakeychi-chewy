@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi Promotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf6f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .promo-banner {
+            background-image: url('https://asset.kompas.com/crops/RKucRN_86s-ywsPR1d08875rI4w=/0x23:1000x689/1200x800/data/photo/2021/09/29/61541255e9dcb.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            flex: 1 1 calc(33.333% - 1rem);
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .feature-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .feature-card h3 {
+            margin: 1rem 0;
+            color: #f8b400;
+        }
+
+        .feature-card p {
+            padding: 0 1rem;
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .feature-card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mochi Madness! Special Promo</h1>
+    </header>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="members.html">Team</a>
+    </nav>
+
+    <div class="promo-banner">
+        Delicious Mochi at Unbeatable Prices!
+    </div>
+
+    <div class="container">
+        <h2>Daftar-daftar Mochi</h2>
+        <div class="features">
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300" alt="Flavorful Mochi">
+                <h3>Strawberry</h3>
+            </div>
+
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300" alt="Handmade Mochi">
+                <h3>Original</h3>
+            </div>
+
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300" alt="Affordable Mochi">
+                <h3>cokelat</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>Kontak Kami:</p>
+            <ul>
+                <li>Email: <a href="mailto:contact@domain.com">contact@domain.com</a></li>
+                <li>Telepon: +62 123 456 789</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nama Perusahaan. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+    
+    <style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-content li {
+            margin: 10px 0;
+        }
+    
+        .footer-content a {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+    
+        .footer-bottom {
+            margin-top: 20px;
+        }
+    </style>    
+</body>
+</html>

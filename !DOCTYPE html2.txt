@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - Mochi Promotion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc99;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a.active {
+            color: #ff6600;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .team {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .team h1 {
+            margin-bottom: 2rem;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .member {
+            text-align: center;
+            width: 150px;
+        }
+
+        .member img {
+            border-radius: 50%;
+            width: 100%;
+            height: auto;
+        }
+
+        .member h2 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html" class="active">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="team">
+            <h1>Meet Our Team</h1>
+            <div class="team-members">
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Member 1">
+                    <h2>John Doe</h2>
+                    <p>Product Designer</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Member 2">
+                    <h2>Jane Smith</h2>
+                    <p>Marketing Strategist</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Member 3">
+                    <h2>Emily Johnson</h2>
+                    <p>Sales Executive</p>
+                </div>
+                <div class="member">
+                    <img src="https://via.placeholder.com/150" alt="Member 4">
+                    <h2>Michael Brown</h2>
+                    <p>Operations Manager</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Kontak Kami:</p>
+            <ul>
+                <li>Email: <a href="mailto:contact@domain.com">contact@domain.com</a></li>
+                <li>Telepon: +62 123 456 789</li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nama Perusahaan. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+    
+    <style>
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .footer-content li {
+            margin: 10px 0;
+        }
+    
+        .footer-content a {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+    
+        .footer-bottom {
+            margin-top: 20px;
+        }
+    </style>    
+</body>
+</html>
